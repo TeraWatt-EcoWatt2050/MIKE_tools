@@ -7,6 +7,8 @@ function [ ElNo ] = FindMIKEElementNo( MeshFilename, X, Y )
 %                   same coordinate system that the model uses (tested with
 %                   UTM). Must be the same length as each other
 
+% Copyright 2016 Simon Waldman / Heriot-Watt University
+
 %% Check inputs
 assert( exist(MeshFilename)==2, 'MeshFilename not found'); 
 assert( exist('X') && exist('Y') && size(X, 1) == 1 && all( size(X) == size(Y) ), 'X and Y must be row vectors of equal size.');
