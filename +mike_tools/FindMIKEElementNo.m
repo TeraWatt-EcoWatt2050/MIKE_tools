@@ -1,4 +1,4 @@
-function [ ElNo ] = FindMIKEElementNo( MeshFilename, X, Y )
+function [ output ] = FindMIKEElementNo( MeshFilename, X, Y )
 %FINDMIKEELEMENTNO Finds the element number(s) in a MIKE flexible mesh
 % corresponding to one or more X/Y coordinate pairs
 
@@ -20,6 +20,7 @@ clear et nodes;
 
 %% Find the element numbers
 ElNo = pointLocation(trMesh2D, X', Y');
+output = ElNo';
 
 end
 
