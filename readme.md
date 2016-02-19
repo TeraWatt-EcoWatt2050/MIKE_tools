@@ -22,15 +22,17 @@ How to install
 
 To use a package of this type: Copy the whole folder `+mike_tools` - *not* just
     the contents of the folder - into your MATLAB path. *Do not rename it*.
-    Call functions from the package by prepending `mike_+tools.` to their names.
+    Call functions from the package by prepending `mike_tools.` to their names.
 
-Example: If you keep your MATLAB scripts in D:\matlab-scripts\, then this could be
-    in D:\matlab-scripts\+mike_tools. D:\matlab-scripts would need to be on the path
-    (or be the current directory) but D:\matlab-scripts\+mike_tools would not need to be.
+Example: If you keep your MATLAB scripts in `D:\matlab-scripts\`, then this could be
+    in `D:\matlab-scripts\+mike_tools`. `D:\matlab-scripts` would need to be on the path
+    (or be the current directory) but `D:\matlab-scripts\+mike_tools` would not need to be.
 
 
 Descritions of functions
 ---
+
+See file headers for fuller details.
 
 **fnReadDFSUMetadata.m**: opens a .dfsu file, returning both a .NET object 
     representing the file and a MATLAB struct with metadata for it in usable
