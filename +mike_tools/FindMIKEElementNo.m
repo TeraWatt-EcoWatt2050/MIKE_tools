@@ -7,7 +7,8 @@ function [ output ] = FindMIKEElementNo( MeshFilename, X, Y )
 %                   same coordinate system that the model uses (tested with
 %                   UTM). Must be the same length as each other
 
-% Copyright 2016 Simon Waldman / Heriot-Watt University
+% Copyright Simon Waldman / Heriot-Watt University 2016
+% The latest version of this function can be found at https://github.com/TeraWatt-EcoWatt2050/MIKE_tools
 
 %% Check inputs
 assert( exist(MeshFilename)==2, 'MeshFilename not found'); 

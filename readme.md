@@ -10,7 +10,7 @@ Author: Simon Waldman, Heriot-Watt University, 2015.
 Contact: smw13@hw.ac.uk
 
 If you use this package in work that leads to publication, an acknowledgement
-would be appreciated.
+would be appreciated. The latest version may be found at https://github.com/TeraWatt-EcoWatt2050/MIKE_tools
 
 NB: These tools are in ongoing development as and when I have a need for them,
     and in the interests of tidying them up I am likely to rename them and/or 

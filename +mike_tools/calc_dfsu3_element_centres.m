@@ -10,7 +10,7 @@ function [ xe, ye, ze ] = calc_dfsu3_element_centres( dfsu3 )
 %   toolbox to be in Matlab's search path. Tested with the 2012 edition of
 %   MIKE.
 
-% Copyright Simon Waldman 2015
+% Copyright Simon Waldman / Heriot-Watt University 2015
 % The latest version of this function can be found at https://github.com/TeraWatt-EcoWatt2050/MIKE_tools
 
 if (nargin < 1)
