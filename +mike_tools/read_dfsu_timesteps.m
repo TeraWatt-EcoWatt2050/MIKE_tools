@@ -7,7 +7,7 @@ function [ sdStepTimes ] = read_dfsu_timesteps( dfsu )
 % This function will only work on a PC with MIKE installed. Tested with the 2012 edition of MIKE and the
 % associated version of the toolbox.
 
-% Copyright Simon Waldman 2014-2015, except that which is taken from
+% Copyright Simon Waldman / Heriot-Watt University 2014-2015, except that which is taken from
 % Stackexchange (which is licensed under Creative Commons - see the
 % original for details)
 % The latest version of this function can be found at https://github.com/TeraWatt-EcoWatt2050/MIKE_tools

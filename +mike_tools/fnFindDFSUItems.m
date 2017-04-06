@@ -16,7 +16,7 @@ function [ OutputMap ] = fnFindDFSUItems( dfsu, ItemNames )
 % be in MATLAB's search path. Tested with the 2012 edition of MIKE and the
 % associated version of the toolbox.
 
-% Copyright Simon Waldman 2015
+% Copyright Simon Waldman / Heriot-Watt University 2015
 % The latest version of this function can be found at https://github.com/TeraWatt-EcoWatt2050/MIKE_tools
 
 if (nargin < 1)
