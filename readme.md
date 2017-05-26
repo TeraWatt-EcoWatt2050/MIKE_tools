@@ -51,3 +51,6 @@ See file headers for fuller details.
 
 **read_dfsu_timesteps.m**: Reads the time information from a dfsu object and returns
     a vector of all the timesteps in MATLAB serial date format.
+
+**fnMIKEgetcoastlines.m**: Extracts the coastlines (non-open boundaries) from a MIKE mesh file and 
+    returns two matrices such that `line(XCoast, YCoast);` will draw them.
