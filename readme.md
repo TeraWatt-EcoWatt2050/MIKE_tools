@@ -6,7 +6,7 @@ MATLAB toolkit installed (and, in the latter case, in your MATLAB path)
 This was written for the 2012 edition of MIKE. It has not been tested with subsequent versions,
 although most of it is likely to keep on working unless the format of the dfs* files changes.
 
-Author: Simon Waldman, Heriot-Watt University, 2015.
+Author: Simon Waldman, Heriot-Watt University, 2015-17.
 Contact: smw13@hw.ac.uk
 
 If you use this package in work that leads to publication, an acknowledgement
